@@ -42,7 +42,7 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 
 ### Notebook Development Approach
 
-This Jupyter Notebook (.ipynb) builds upon the tutorial materials provided in the Engineering Design course. While not a direct fork, the original notebook served as a template and reference for structuring this project. Key modifications include:
+This Jupyter Notebook (.ipynb) builds upon the tutorial materials provided in the Engineering Design course. While not a direct fork, the original notebook served as a template and reference for structuring the foundation of the object detection model's notebook. Key modifications include:
 
 - Adapting the framework for autonomous vehicle-specific use cases.
 
