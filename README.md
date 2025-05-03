@@ -35,3 +35,17 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 ├───────────────────────┤
 │   Decision Output     │  ← Navigation System Interface
 └───────────────────────┘
+
+---
+
+### Notebook Development Approach
+
+This Jupyter Notebook (.ipynb) builds upon the tutorial materials provided in [Course Name/URL]. While not a direct fork, the original notebook served as a template and reference for structuring this project. Key modifications include:
+
+Adapting the framework for autonomous vehicle-specific use cases.
+
+Implementing custom data pipelines, models, and visualizations.
+
+Expanding functionality to address [specific project goals, e.g., sensor integration, path planning, etc.].
+
+Credit and gratitude to the original authors for the foundational structure.
