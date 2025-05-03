@@ -36,6 +36,8 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 │   Decision Output     │  ← Navigation System Interface
 └───────────────────────┘
 
+```
+
 ---
 
 ### Notebook Development Approach
