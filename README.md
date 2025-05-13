@@ -42,7 +42,7 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 
 ### 📦 Dataset
 
-- **`signs_dataset**  
+- **`signs_dataset`**  
   A folder containing the dataset in Pascal VOC format. It includes images and their corresponding XML annotation files for training the road sign detector. Make sure you zip the content within the folder after downloading the dataset.
 
 ### 🧪 Scripts
@@ -70,6 +70,8 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 2. Upload the following files to the runtime:
    - `train_signs_model.py`
    - `split_dataset.py`
+   -  `test_signs_model.py`
+   -  `detect_signs.py`
    - `signs_dataset.zip` (after zipping the folder)
 3. Follow the notebook to:
    - Train the model
