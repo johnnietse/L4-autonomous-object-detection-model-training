@@ -41,8 +41,7 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 ### Files breakdown:
 ```plaintext
 signs_dataset
-```
-A folder containing the dataset in Pascal VOC format. It includes images and their corresponding XML annotation files for training the road sign detector.
+``` A folder containing the dataset in Pascal VOC format. It includes images and their corresponding XML annotation files for training the road sign detector.
 
 
 ---
