@@ -77,7 +77,7 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 4. Follow the notebook to:
    - Train the model
    - Export a `.tflite` file (with or without EdgeTPU optimization)
-
+    - Without EdgeTPU optimization: efficientdet-lite-signs.tflite
 ### 🤖 Deployment on Raspberry Pi
 
 1. Copy the `.tflite` model and `signs-labels.txt` to a directory of your choice (in the Raspberry Pi)
