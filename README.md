@@ -38,10 +38,51 @@ This repository contains the complete perception stack for a **Level 4 Autonomou
 
 ```
 ---
-### Files breakdown:
-```plaintext
-signs_dataset
-``` A folder containing the dataset in Pascal VOC format. It includes images and their corresponding XML annotation files for training the road sign detector.
+## 📁 Project Structure
+
+### 📦 Dataset
+
+- **`signs_dataset**  
+  A folder containing the dataset in Pascal VOC format. It includes images and their corresponding XML annotation files for training the road sign detector. Make sure you zip the content within the folder after downloading the dataset.
+
+### 🧪 Scripts
+
+- **`split_dataset.py`**  
+  Splits the dataset into training, validation, and test sets. Ensures proper evaluation of the model on unseen data.
+
+- **`train_signs_model.py`**  
+  Main training script (used in Google Colab). It:
+  - Prepares and loads the dataset
+  - Defines and trains an EfficientDet-lite model
+  - Converts and exports the model as `.tflite` for deployment
+
+- **`test_signs_model.py`**  
+  Loads and tests the trained model on a sample image to verify inference before deployment.
+
+- **`detect_signs.py`**  
+  Deploys the trained model on a Raspberry Pi using the Coral TPU. Captures live video feed and detects road signs in real-time, drawing bounding boxes.
+
+## 🚀 Getting Started
+
+### ▶️ Training in Google Colab
+
+1. Open the [Google Colab Notebook](https://colab.research.google.com/drive/1Kx320hERKWzCzEK7I96HtujaYpVlPO9D).
+2. Upload the following files to the runtime:
+   - `train_signs_model.py`
+   - `split_dataset.py`
+   - `signs_dataset.zip` (after zipping the folder)
+3. Follow the notebook to:
+   - Train the model
+   - Export a `.tflite` file (with or without EdgeTPU optimization)
+
+### 🤖 Deployment on Raspberry Pi
+
+1. Copy the `.tflite` model and `signs-labels.txt` to a directory of your choice (in the Raspberry Pi)
+2. Save `detect_signs.py` to another directory of your choice (in the Raspberry Pi)
+3. Run the detection script:
+```bash
+python3 detect_signs.py
+```
 
 
 ---
