@@ -114,4 +114,4 @@ My contributions are limited to:
 - Modifications required for functional correctness
 - Performance optimizations specific to the runtime environment
 
-I assert copyright only over these specific remedial modifications. The majority of the codebase, including all original design patterns, proprietary methodologies, and core functionality remains exclusively owned by the course - ELEC 390 Principles of Design and Development. This notice does not transfer any ownership rights of the original tutorial materials code.
+I assert copyright only over these specific remedial modifications. The majority of the codebase, including all original design patterns, proprietary methodologies, and core functionality remains exclusively owned by the course - ELEC 390 Principles of Design and Development. This notice does not transfer any ownership rights of the ELEC 390 tutorials original code.
