@@ -65,16 +65,14 @@ This repository contains the complete training for an object detection model tha
 ## 🚀 Getting Started
 
 ### ▶️ Training in Google Colab
-
-
-1. Open the [Google Colab Notebook](https://colab.research.google.com/drive/1Kx320hERKWzCzEK7I96HtujaYpVlPO9D) or download the `.ipynb` notebook from this repository `Training of EfficientDet-Lite Detector for the Coral TPU (TF2) - Road Signs.ipynb` and import it into a newly created notebook in Google Colab
-3. Upload the following files to the runtime:
+1. Download the `.ipynb` notebook from this repository `Training of EfficientDet-Lite Detector for the Coral TPU (TF2) - Road Signs.ipynb` and import it into a newly created notebook in Google Colab
+2. Upload the following files to the runtime:
    - `train_signs_model.py`
    - `split_dataset.py`
    -  `test_signs_model.py`
    -  `detect_signs.py`
    - `signs_dataset.zip` (after zipping the folder)
-4. Follow the notebook to:
+3. Follow the notebook to:
    - Train the model
    - Export a `.tflite` file (with or without EdgeTPU optimization)
       - With EdgeTPU optimization: `efficientdet-lite-signs_edgetpu.tflite`
